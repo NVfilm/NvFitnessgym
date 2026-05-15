@@ -1,274 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NVGYMFitness - Best Gym in Your City</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NVGYMFitness</title>
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <h2>NVGYMFitness</h2>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#classes">Classes</a></li>
-                    <li><a href="#trainers">Trainers</a></li>
-                    <li><a href="#membership">Membership</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="cta-buttons">
-                    <a href="mailto:dadadesigner19@gmail.com" class="cta-btn email-btn">Email Us</a>
-                    <a href="https://wa.me/8796493504" class="cta-btn whatsapp-btn" target="_blank">
-                        <i class="fab fa-whatsapp"></i> WhatsApp
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </header>
-<!-- ===== NAVBAR ===== -->
-<header>
-  <div class="logo">NVGYMFitness</div>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#classes">Classes</a>
-    <a href="#membership">Membership</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+  <!-- NAVBAR -->
 
-<!-- ===== HERO SECTION ===== -->
-<section class="hero" id="home">
-  <div class="hero-content">
-    <h1>Transform Your Body</h1>
+  <header>
+
+    <div class="logo">NVGYMFitness</div>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#classes">Classes</a>
+      <a href="#membership">Membership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="menu-btn" id="menuBtn">
+      ☰
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <h1>Train Hard Stay Fit</h1>
+
+      <p>
+        Build your dream body with professional trainers
+        and modern fitness equipment.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="mailto:yourmail@gmail.com" class="email-btn">
+          Email Us
+        </a>
+
+        <a href="https://wa.me/919310771200"
+          target="_blank"
+          class="whatsapp-btn">
+          WhatsApp
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about" id="about">
+
+    <h2>About Us</h2>
+
     <p>
-      Join NVGYMFitness and start your fitness journey with expert trainers
-      and modern equipment.
+      NVGYMFitness helps you improve strength,
+      stamina and confidence with modern gym training.
     </p>
 
-    <!-- BUTTONS DOWN -->
-    <div class="hero-buttons">
-      <a href="mailto:yourmail@gmail.com" class="email-btn">Email Us</a>
+  </section>
 
-      <a
-        href="https://wa.me/919310771200"
-        target="_blank"
-        class="whatsapp-btn"
-      >
-        WhatsApp
-      </a>
+  <!-- CLASSES -->
+
+  <section class="classes" id="classes">
+
+    <h2>Our Classes</h2>
+
+    <div class="class-boxes">
+
+      <div class="box">
+        <h3>Cardio</h3>
+        <p>Burn calories and stay active.</p>
+      </div>
+
+      <div class="box">
+        <h3>Weight Training</h3>
+        <p>Build strength and muscle faster.</p>
+      </div>
+
+      <div class="box">
+        <h3>Yoga</h3>
+        <p>Improve flexibility and peace of mind.</p>
+      </div>
+
     </div>
-  </div>
-</section>
-    
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">Why Choose NVGYMFitness?</h2>
-            <div class="about-grid">
-                <div class="about-item">
-                    <i class="fas fa-dumbbell"></i>
-                    <h3>World-Class Equipment</h3>
-                    <p>Latest Technogym & Hammer Strength equipment imported from USA & Europe</p>
-                </div>
-                <div class="about-item">
-                    <i class="fas fa-users"></i>
-                    <h3>Certified Trainers</h3>
-                    <p>IFBB Pro trainers with 10+ years experience</p>
-                </div>
-                <div class="about-item">
-                    <i class="fas fa-clock"></i>
-                    <h3>24/7 Access</h3>
-                    <p>Open 24 hours with biometric access system</p>
-                </div>
-                <div class="about-item">
-                    <i class="fas fa-heartbeat"></i>
-                    <h3>Personalized Plans</h3>
-                    <p>Custom diet & workout plans for every member</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Classes Section -->
-    <section id="classes" class="classes">
-        <div class="container">
-            <h2 class="section-title">Group Classes</h2>
-            <div class="classes-grid">
-                <div class="class-card">
-                    <i class="fas fa-fire"></i>
-                    <h3>HIIT Training</h3>
-                    <p>High Intensity Interval Training</p>
-                    <span class="class-time">Mon, Wed, Fri - 6 AM</span>
-                </div>
-                <div class="class-card">
-                    <i class="fas fa-dumbbell"></i>
-                    <h3>Weight Training</h3>
-                    <p>Powerlifting & Bodybuilding</p>
-                    <span class="class-time">Daily - All Day</span>
-                </div>
-                <div class="class-card">
-                    <i class="fas fa-running"></i>
-                    <h3>Cardio Blast</h3>
-                    <p>Treadmill & Cycling</p>
-                    <span class="class-time">Tue, Thu, Sat - 7 AM</span>
-                </div>
-                <div class="class-card">
-                    <i class="fas fa-yoga"></i>
-                    <h3>Yoga & Zumba</h3>
-                    <p>Flexibility & Dance Fitness</p>
-                    <span class="class-time">Daily - 8 AM</span>
-                </div>
-            </div>
-        </div>
-    </section>
+  </section>
 
-    <!-- Membership Section -->
-    <section id="membership" class="membership">
-        <div class="container">
-            <h2 class="section-title">Membership Plans</h2>
-            <div class="plans-grid">
-                <div class="plan-card">
-                    <h3>Basic</h3>
-                    <div class="price">₹999 <span>/month</span></div>
-                    <ul>
-                        <li>24/7 Gym Access</li>
-                        <li>Basic Equipment</li>
-                        <li>Lockers</li>
-                    </ul>
-                    <a href="https://wa.me/8796493504" class="plan-cta whatsapp-btn" target="_blank">Join Now</a>
-                </div>
-                <div class="plan-card popular">
-                    <div class="popular-badge">Most Popular</div>
-                    <h3>Premium</h3>
-                    <div class="price">₹1999 <span>/month</span></div>
-                    <ul>
-                        <li>✅ All Access</li>
-                        <li>✅ Personal Trainer</li>
-                        <li>✅ Group Classes</li>
-                        <li>✅ Diet Plan</li>
-                        <li>✅ Sauna</li>
-                    </ul>
-                    <a href="https://wa.me/8796493504" class="plan-cta whatsapp-btn" target="_blank">Join Now</a>
-                </div>
-                <div class="plan-card">
-                    <h3>VIP</h3>
-                    <div class="price">₹2999 <span>/month</span></div>
-                    <ul>
-                        <li>Everything in Premium</li>
-                        <li>Private Parking</li>
-                        <li>Nutritionist</li>
-                    </ul>
-                    <a href="https://wa.me/8796493504" class="plan-cta whatsapp-btn" target="_blank">Join Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- MEMBERSHIP -->
 
-    <!-- Trainers Section -->
-    <section id="trainers" class="trainers">
-        <div class="container">
-            <h2 class="section-title">Our Elite Trainers</h2>
-            <div class="trainers-grid">
-                <div class="trainer-card">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=400&fit=crop" alt="Trainer">
-                    <h3>Rahul Sharma</h3>
-                    <p>IFBB Pro Bodybuilder</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
-                <div class="trainer-card">
-                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=400&fit=crop" alt="Trainer">
-                    <h3>Priya Singh</h3>
-                    <p>Certified Yoga Expert</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
-                <div class="trainer-card">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=400&fit=crop" alt="Trainer">
-                    <h3>Amit Kumar</h3>
-                    <p>CrossFit Champion</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- ===== FORM SECTION ===== -->
-<section class="contact-form-section" id="contact">
-  <h2>Get Membership</h2>
+  <section class="membership" id="membership">
 
-  <form class="contact-form">
-    <input type="text" placeholder="Your Name" required />
+    <h2>Membership Plans</h2>
 
-    <input type="email" placeholder="Your Email" required />
+    <div class="plans">
 
-    <input type="tel" placeholder="Phone Number" required />
+      <div class="plan">
+        <h3>Basic</h3>
+        <div class="price">₹999</div>
+        <p>Gym Access</p>
+        <button>Join Now</button>
+      </div>
 
-    <textarea placeholder="Your Message"></textarea>
+      <div class="plan">
+        <h3>Premium</h3>
+        <div class="price">₹1999</div>
+        <p>Trainer Support</p>
+        <button>Join Now</button>
+      </div>
 
-    <button type="submit">Submit Now</button>
-  </form>
-</section>
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Ready to Transform?</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Contact Us</h3>
-                    <p><i class="fas fa-phone"></i> +91 8796493504</p>
-                    <p><i class="fas fa-envelope"></i> dadadesigner19@gmail.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Your City, India</p>
-                </div>
-                <div class="contact-buttons">
-                    <a href="https://wa.me/8796493504" class="cta-btn whatsapp-btn big-btn" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
-                    </a>
-                    <a href="mailto:dadadesigner19@gmail.com" class="cta-btn email-btn big-btn">Send Email</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>NVGYMFitness</h3>
-                    <p>Transforming Lives Through Fitness</p>
-                </div>
-                <div class="footer-links">
-                    <a href="https://wa.me/8796493504" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-                    <a href="mailto:dadadesigner19@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 NVGYMFitness. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- CONTACT -->
+
+  <section class="contact" id="contact">
+
+    <h2>Get Membership</h2>
+
+    <form>
+
+      <input type="text" placeholder="Your Name" required>
+
+      <input type="email" placeholder="Your Email" required>
+
+      <input type="tel" placeholder="Phone Number" required>
+
+      <textarea placeholder="Your Message"></textarea>
+
+      <button type="submit">Submit Now</button>
+
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2026 NVGYMFitness | All Rights Reserved
+  </footer>
+
+  <!-- JS LINK -->
+  <script src="script.js"></script>
+
 </body>
+
 </html>
